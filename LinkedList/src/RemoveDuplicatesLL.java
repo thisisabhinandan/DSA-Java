@@ -1,13 +1,3 @@
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-
-}
 public class RemoveDuplicatesLL {
 
     public static Node RemoveDuplicates(Node head) {
