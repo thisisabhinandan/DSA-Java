@@ -1,4 +1,3 @@
-import java.util.List;
 
 public class MergeTwoSortedLL {
     public static Node Merge(Node List1,Node List2)
