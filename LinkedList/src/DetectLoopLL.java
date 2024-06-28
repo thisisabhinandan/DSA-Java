@@ -5,7 +5,7 @@ public class DetectLoopLL {
     {
         Node slow=head;
         Node fast=head;
-        while(fast.next!=null && fast.next.next!=null)
+        while(fast.next!=null && fast!=null)
         {
             slow=slow.next;
             fast=fast.next.next;
